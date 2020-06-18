@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar{
+    display: block;
+    background-color: yellow;
+    padding: 1rem 0rem;
+    font-family: 'Merriweather', serif;
+
+}
+
+#logo1{
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: -1rem;
+    position: relative;
+    top: -0.5rem;
+    margin-left: -2rem;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    padding: 0.8rem 0.5rem;
+    border-radius: 19px;
+    margin: 1rem 0.2rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    position: relative;
+    top: 1rem;
+}
+
+#navbar ul li a:hover{
+    border-radius: 30px;
+    transition-duration: 75ms;
+}
+
+
+#introsection{
+    border: 2px solid;
+    background-color: royalblue;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     overflow-x: auto; 
+    scroll-behavior: smooth;
+}
+
+
+#introsection::-webkit-scrollbar{
+    display: none;
+}
+
+#sponsorsection{
+    border: 2px solid;
+    background-color: rgb(255, 77, 106);
+    height: 20rem;
+    width: 100%;
+}
+
+
+
+.images{
+    position: relative;
+    height: 36rem;
+    width: 337px;
+}
+
+.images:hover{
+    transform: scale(1.1);
+    position: relative;
+    z-index: 100;
+    transition-duration: 1s;
+}
+
+#btn{
+    z-index: 200;
+    background-color: rgba(77, 77, 77, 0.561);
+    height: 5rem;
+    width: 2.5rem;
+    position: absolute;
+    right: 0px;
+    top: 19.5rem;
+    opacity: 0.7;
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+    background: url("/static/next.jpg") no-repeat center center;
+    background-size: 3rem;
+    filter: invert();
+    border-style: solid;
+}
+
+#btn:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition-duration: 75ms;
+}
+
+#btn:active{
+    transform-style: none;
+}
+
+.not-visible{
+    display: none;
+}
+
+.is-visible{
+    display: inherit;
+    z-index: 200;
+    background-color: rgba(77, 77, 77, 0.561);
+    height: 5rem;
+    width: 2.5rem;
+    position: absolute;
+    left: 0px;
+    top: 19.5rem;
+    opacity: 0.7;
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+    background: url("/static/next.jpg") no-repeat center center;
+    background-size: 3rem;
+    filter: invert();
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    border-style: solid;
+}
+
+#btn2:hover{
+    opacity: 1;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition-duration: 75ms;
+}
+
+#btn2:active{
+    transform-style: none;
+}
+
+#mission{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid green;
+    background-color: salmon;
+}
+
+#mission h2{
+    font-size: 2rem;
+}
+
+#our-mission{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+height: 15rem;
+width: 20rem;
+display: inline-block;
+border: 2px solid seagreen;
+border-radius: 5px;
+margin: auto;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+
+.card-image{
+    height: 13rem;
+    width: 20rem;
+    position: relative;
+    top: 0rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+#card-image1{
+    height: 12rem;
+    width: 10rem;
+    position: relative;
+    left: 10rem;
+}
+
+#card-image2{
+    height: 10rem;
+    width: 9rem;
+    position: relative;
+    left: 11rem;
+}
+
+#card-image3{
+    height: 10rem;
+    width: 10rem;
+    position: relative;
+    left: 12rem;
+    top: 2rem;
+}
+
+
+#para1{
+    height: 6rem;
+    width: 10rem;
+    position: relative;
+    left: -9rem;
+    top: 2rem;
+    font-size: 1.5rem;
+}
+
+#para2{
+    height: 6rem;
+    width: 10rem;
+    position: relative;
+    left: -8rem;
+    top: 2rem;
+    font-size: 1.5rem;
+}
+
+#para3{
+    height: 6rem;
+    width: 13rem;
+    position: absolute;
+    left: 1rem;
+    top: 2rem;
+    font-size: 1.5rem;
+}
+
+#sponsorsection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#sponsorsection div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+#sponsorsection h1{
+    font-size: 2rem;
+}
+
+.company{
+    height: 7rem;
+    width: auto;
+    margin: auto 2rem;
+}
+
+#footer{
+    border: solid sandybrown;
+    background-color: sandybrown;
+    width: 100%;
+    height: 4rem;
+}
+
+#footer div{
+    width: fit-content;
+    margin: auto auto;
+    height: auto;
+}

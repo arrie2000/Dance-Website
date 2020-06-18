@@ -1,0 +1,59 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+
+
+    section#introsection.container
+        img.images(src="/static/bg1.jpg", alt="")
+        img.images(src="/static/bg2.jpg", alt="")
+        img.images(src="/static/bg3.jpg", alt="")
+        img.images(src="/static/bg4.jpg", alt="")
+        img.images(src="/static/bg5.jpg", alt="")
+        img.images(src="/static/bg6.jpg", alt="")
+        img.images#img7(src="/static/bg7.jpg", alt="")
+        button#btn
+        button#btn2.not-visible
+
+
+
+    section#mission.container
+      h2 Our Mission
+      section#our-mission
+
+        div#card1.card
+          h3 Dance Perfection
+          div.card-image
+            img#card-image1(src="/static/logo3.png", alt="")
+            p#para1 This is the best dance academy in India. and we have some of the best alumni 
+
+
+        div#card2.card
+          h3 Dance the way you like
+          div.card-image
+            img#card-image2(src="/static/logo4.png", alt="")
+            p#para2 We offer a wide range of flavour to your choice. Both Indian and western styles 
+
+
+        div#card3.card
+          h3 Expert Training
+          div.card-image
+            img#card-image3(src="/static/logo5.png", alt="")
+            p#para3 With expert mentors who have a great track record of choreographing some of the best names in the Industry
+
+
+
+    section#sponsorsection.container
+          h1 Section for sponsors   
+          div
+            img.company(src="/static/company1.png", alt="") 
+            img.company(src="/static/company2.png", alt="") 
+            img.company(src="/static/company3.png", alt="") 
+            img.company(src="/static/company4.png", alt="") 
+            img.company(src="/static/company5.png", alt="") 
+    
+
+    script
+      include ../static/index.js
